@@ -1,0 +1,133 @@
+Montar um plano bem completo e realista para aplicar o Scrum Framework num projeto onde:
+
+- O cliente pede um site comercial em PHP.
+- Os desenvolvedores usam Microsoft Teams e Git.
+- O projeto é gerido usando os princípios do Scrum (papéis, sprints, backlog, etc).
+
+🔷 1. INTRODUÇÃO AO SCRUM
+Scrum é uma metodologia ágil focada em entregas rápidas, incrementais e feedback constante com o cliente. O projeto é dividido em ciclos curtos chamados de sprints (normalmente 1 a 4 semanas). O objetivo é ter um produto utilizável ao final de cada sprint.
+
+🔷 2. PRINCIPAIS PAPÉIS NO SCRUM
+# Papel			# Responsabilidade
+Product Owner (PO) ->	Representa os interesses do cliente. Prioriza as funcionalidades e mantém o Product Backlog.
+Scrum Master (SM)  ->	Facilita o processo Scrum, remove impedimentos, organiza reuniões.
+Development Team   ->	Equipa técnica que planeia, desenvolve, testa e entrega funcionalidades.
+
+🔷 3. EXEMPLO DE DISTRIBUIÇÃO DOS PAPÉIS
+📌 Equipa sugerida:
+- Product Owner: Pode ser um analista de negócios ou o próprio gestor de projeto que fala com o cliente.
+- Scrum Master: Alguém com experiência em processos ágeis, pode ser também um líder técnico.
+- Development Team:
+	- 1 ou 2 programadores PHP
+	- 1 Web Designer (HTML/CSS, responsividade)
+	- 1 QA/Tester (pode ser um dev que assume testes também)
+
+🔷 4. FERRAMENTAS USADAS
+# Ferramenta				# Finalidade
+Microsoft Teams			    ->	Reuniões, comunicação diária
+Git (GitHub/GitLab/Bitbucket)	    ->	Versionamento de código
+Trello / Jira / ClickUp (opcional)  ->	Gestão do backlog e tarefas
+Figma / Canva / PDF		    ->	Protótipos e apresentação visual ao cliente
+
+🔷 5. CICLO DO PROJETO SCRUM – PASSO A PASSO
+✅ Fase 1: Reunião Inicial com o Cliente
+- Participantes: Product Owner, Scrum Master, Cliente
+- Objetivo:
+	- Entender requisitos do site (funcionalidades, público-alvo, prazo)
+	- Levantar o que é essencial x desejável
+	- Discutir prazos e expectativas
+📄 Entregável: Product Vision Document + início da criação do Product Backlog
+
+✅ Fase 2: Criação do Product Backlog
+O PO transforma os requisitos em histórias de usuário no formato:
+- Como [tipo de utilizador], quero [funcionalidade] para [benefício].
+# Exemplo:
+- Como visitante, quero ver uma lista de produtos para poder escolher o que comprar.
+- Como administrador, quero autenticar no sistema para gerir os conteúdos do site.
+
+📄 Ordenação por prioridade.
+📄 Estimativas podem ser feitas com "Story Points" ou tempo estimado.
+
+✅ Fase 3: Sprint Planning (Planejamento da Sprint)
+Duração da Sprint: 1 ou 2 semanas
+- Participantes: PO, Dev Team, Scrum Master
+	Objetivo:
+	- Escolher as tarefas com base na capacidade da equipa.
+	- Dividir histórias em tarefas técnicas (ex: "criar base de dados", "criar página login").
+
+✅ Fase 4: Desenvolvimento e Reuniões Diárias (Daily Scrum)
+- Todos os dias, 15 minutos no Teams com perguntas:
+	1. O que fiz ontem?
+	2. O que farei hoje?
+	3. Algum impedimento?
+📄Código é versionado em Git, com branches para cada funcionalidade (feature/nome).
+
+✅ Fase 5: Revisão da Sprint (Sprint Review)
+- Apresentação ao cliente do que foi feito.
+- Pode ser uma demo funcional no navegador.
+- Feedback é recolhido e adicionado ao backlog se necessário.
+
+✅ Fase 6: Retrospectiva (Sprint Retrospective)
+- Apenas com a equipa técnica.
+- O que correu bem?
+- O que pode melhorar?
+- Que ações tomar para a próxima sprint?
+
+🔷 6. CICLO EXEMPLO NA PRÁTICA (Para o Site Comercial)
+Sprint 1 (Semana 1)
+Objetivo: Estrutura base do site
+
+# Tarefa						# Responsável		# Estado
+Criar repositório Git e estrutura inicial do projeto	Dev 1			✅
+Criar layout da home (Figma)				Designer		✅
+Página de login do admin (HTML + PHP básico)		Dev 2			✅
+Setup base de dados (MySQL)				Dev 1			✅
+
+📄Revisão com cliente: mostra-se a home e a página de login funcional (mesmo sem lógica de autenticação ainda).
+
+
+Sprint 2 (Semana 2)
+Objetivo: Funcionalidades básicas
+# Tarefa				# Responsável
+Autenticação de administrador		Dev 2
+Formulário de contacto			Dev 1
+Página "Sobre nós"			Dev 1
+Validações front-end			Designer
+
+
+
+🔷 7. FLUXO DE COMUNICAÇÃO
+# Com o cliente (via Teams ou e-mail):
+- Kickoff meeting (início)
+- Sprint Reviews (fim de cada sprint)
+- Reuniões rápidas intermediárias (se necessário)
+
+# Interno (desenvolvedores e SM):
+- Daily Scrum (todos os dias, 15 min)
+- Conversas técnicas no Teams ou Git
+- Pull requests com revisões de código
+
+🔷 8. CONCLUSÃO
+O uso do Scrum permite:
+✅ Entregas rápidas e visíveis
+✅ Feedback constante
+✅ Melhor comunicação entre cliente e equipa
+✅ Facilidade de adaptação (mudança de requisitos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
